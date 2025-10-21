@@ -21,12 +21,12 @@ console.log(sumapar);
 // Ejercicio 3: Tabla de multiplicar
 // Pide al usuario un número mediante prompt(). Luego, imprime su tabla de multiplicar del 1 al 10. Ejemplo de salida si el usuario ingresa 5:
 
-let nro = prompt("introduce numero ")
+let numero = prompt("introduce numero ")
 
 multi=1;
 for (let i = 1; i <= 10; i++) {
-    multi=multi * nro;
-    console.log(nro+"*" +i+"*"+multi);
+    multi=multi * numero;
+    console.log(numero+"*" +i+"*"+multi);
 }
 // 5 x 1 = 5  
 // 5 x 2 = 10  
